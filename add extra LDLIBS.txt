@@ -1,4 +1,4 @@
-sudo gedit ~/.bashrc
+sudo -H gedit /etc/environment
 
 // add this line
-export LDLIBS="${LDLIBS} -lcs50"
+LDLIBS="-lcs50"
